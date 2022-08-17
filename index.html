@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="_assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="_assets/css/fonts.css">
   <link rel="stylesheet" href="_assets/css/style.css">
+  <link rel="shortcut icon" href="_assets/icons/FlameBox.ico">
 
   <title>FlameFinans - Finanças pessoais</title>
 </head>
@@ -17,7 +18,7 @@
     <nav class="navbar navbar-expand-md nav" id="nav">
       <div class="container">
         <a href="#" id="logo" class="navbar-brand">
-          <img src="/_assets/img/FlameBox.png" data-tilt alt="Logo" width="50" class="d-inline-block align-text-center">
+          <img src="_assets/img/FlameBox.png" data-tilt alt="Logo" width="50" class="d-inline-block align-text-center">
           FlameFinans
         </a>
         <!-- Inicio do botões-->
@@ -50,7 +51,7 @@
           <!-- Login e Cadastro-->
           <form class="d-flex ms-md-4 justify-content-center login mb-2" id="menu">
             <button class="btn btn-light disabled" type="submit">Login</button>
-            <button class="btn btn-success" type="submit">Comece já</button>
+            <button class="btn btn-success" type="submit" onclick="off()">Comece já</button>
           </form>
 
         </div>
@@ -60,6 +61,8 @@
     </nav>
 
   </header>
+  
+
   <!--HOME -->
   <section id="home">
     <div class="container">
@@ -77,9 +80,10 @@
             <!--Parte do Email -->
             <form class="mt-4 mb-4">
               <div class="input-group input-group-md">
-                <input type="email" name="email" id="email" placeholder="seuemail@email.com" class="form-control">
+                <!--Alerta-->
+                <input type="email"  name="email" id="email" placeholder="seuemail@email.com" class="form-control">
 
-                <button class="btn btn-success" type="button">Cadastre-se</button>
+                <button class="btn btn-success" type="button" onclick="off()">Cadastre-se</button>
               </div>
             </form>
 
@@ -98,7 +102,7 @@
 
         <!--Parte da imagem -->
         <div class="col-md-5 d-none d-md-block" id="app_img" data-tilt>
-          <img class="img-fluid " id="app_img" src="/_components/img/phone01-EXSQ3GPW.png" alt="App">
+          <img class="img-fluid " id="app_img" src="_components/img/phone01-EXSQ3GPW.png" alt="App">
         </div>
       </div>
     </div>
@@ -109,7 +113,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6" data-tilt>
-          <img class="img-fluid" src="/_components/img/facil.png">
+          <img class="img-fluid" src="_components/img/facil.png">
         </div>
         <div class="col-md-6 d-flex">
           <div class="align-self-center">
@@ -148,7 +152,7 @@
 
         </div>
         <div class="col-md-6 d-none d-sm-block" data-tilt>
-          <img class="img-fluid" src="/_components/img/juros.png">
+          <img class="img-fluid" src="_components/img/juros.png">
         </div>
       </div>
     </div>
@@ -312,7 +316,7 @@
         <!--LOGO-->
         <div class="col-sm-3 ms-3 d-none d-md-flex navbar justify-content-center align-content-center" >
             <a href="#" id="logo" class="navbar-brand">
-              <img src="/_assets/img/FlameBox.png" alt="Logo" width="50" data-tilt class="d-inline-block align-text-center">
+              <img src="_assets/img/FlameBox.png" alt="Logo" width="50" data-tilt class="d-inline-block align-text-center">
               FlameFinans
             </a>
             
@@ -335,7 +339,7 @@
               <button class="btn btn-light disabled" type="submit">Login</button>
             </li>
             <li class="nav-item">
-              <button class="btn btn-success" type="submit">Comece já</button>
+              <button class="btn btn-success" type="submit" onclick="off()">Comece já</button>
             </li>
           </ul>
 
