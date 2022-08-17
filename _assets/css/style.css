@@ -1,0 +1,72 @@
+:root {
+  --var0: #ffffff;
+  --var1: #ff3f1b;
+  --var2: #77c9ff;
+  --var3: #0F1519;
+
+  --bg0: #f0f8ff;
+  --bg1: #fdfffc;
+  --bg2: #324376;
+}
+
+body {
+  background: var(--bg1);
+}
+#nav {
+  color: var(--var2);
+  background-color: var(--bg0);
+}
+#logo {
+  font-family: poppinslight;
+  font-weight: 800;
+}
+#home {
+  background-color: var(--bg0);
+}
+#home h1 {
+  font-style: bold;
+  font-weight: 300;
+}
+#app_img {
+  max-height: 577px;
+}
+#app_text {
+  max-width: 560px;
+}
+.caixa {
+  padding: 60px 0;
+}
+#saiba_mais {
+  background-color: var(--bg1);
+  
+}
+#saiba_mais h2 {
+  font-style: bold;
+  font-weight: 200;
+}
+#grafico{
+    background-color: var(--bg0);
+    
+}   
+#grafico img{
+  max-height: 577px;
+}
+#perguntas{
+    background-color: var(--var3);
+    color: #fff;
+}
+#perguntas h1{
+    background-color: var(--var3);
+}
+#recursos{
+    background-color: var(--bg1);
+    max-width: 600px;
+    margin: auto;
+
+}
+#perguntas_caixa{
+  max-width: 760px;
+}
+::-webkit-scrollbar {
+  display: none;
+  }
